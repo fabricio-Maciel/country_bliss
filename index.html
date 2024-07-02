@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Bliss | Turismo Rural </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navegação -->
+  <nav class="navbar bg-white box-shadow navbar-expand-md fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="imagens/logotipo-country.svg" alt="Bootstrap">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Sobre</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Eventos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Pescaria</a></li>
+              <li><a class="dropdown-item" href="#">Passeio a cavalo</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Shows</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-primary ms-md-2 cor-destaque" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary ms-md-2 mt-2 mt-md-0" href="#">Inscreva-se</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <main>
+    <!-- Carousel Principal -->
+    <div class="container-fluid">
+      <div class="row bg-cor align-items-center">
+        <div class="col-xl-5 text-white mt-md-5 p-5">
+          <h1>Descubra a <span class="cor-destaque">Natureza</span> em Sua Plenitude</h1>
+          <p class="">Oferecemos a você a oportunidade de desconectar da agitação da cidade e se reconectar com a serenidade do campo.</p>
+          <a class="btn btn-outline-primary text-white" href="#">Saiba Mais</a>
+        </div>
+        <div class="col-xl-7 p-0">
+          <div id="carouselMain" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/cidade.jpg" class="d-block w-100" alt="Vizinhança rural">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/cidade02.jpg" class="d-block w-100" alt="Vizinhança Rural">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/cidade03.jpg" class="d-block w-100" alt="Vizinhança rural">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benefícios -->
+    <section class="text-center py-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="my-5">
+            <p class="mb-2 h6">O MELHOR DA VIDA RURAL</p>
+            <h2 class="display-4">Nossos Benefícios</h2>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div>
+              <img class="mb-3" src="imagens/icon-casa.svg" alt="ícone de casa">
+            </div>
+            <h3>Acomodações</h3>
+            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div>
+              <img class="mb-3" src="imagens/icon-chapeu.svg" alt="ícone de chapeu">
+            </div>
+            <h3>Acessórios</h3>
+            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div>
+              <img class="mb-3" src="imagens/icon-carro.svg" alt="ícone de carro">
+            </div>
+            <h3>Translado</h3>
+            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div>
+              <img class="mb-3" src="imagens/icon-culinaria.svg" alt="ícone de torradeira">
+            </div>
+            <h3>Culinária</h3>
+            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div>
+              <img class="mb-3" src="imagens/icon-planta.svg" alt="ícone de planta">
+            </div>
+            <h3>Plante</h3>
+            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div>
+              <img class="mb-3" src="imagens/icon-mic.svg" alt="ícone de Microfone">
+            </div>
+            <h3>Eventos</h3>
+            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blockquote -->
+    <section id="home-quote" class="p-md-5">
+      <blockquote class="blockquote text-center text-white p-md-5 p-3">
+        <p class="display-4">
+          <em>“O cheiro da terra molhada e o som dos animais são as sinfonias da vida no campo. Cavalos despertam na gente um amor difícil de domar!”</em>
+        </p>
+        <footer class="blockquote-footer text-white pt-3 pb-5">
+          Tere Marcellino
+        </footer>
+      </blockquote>
+    </section>
+
+    <section class="text-center py-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="my-4">
+            <p class="mb-2 h6">ESCOLHA O SEU</p>
+            <h2 class="display-4">Nossos Planos</h2>
+          </div>
+          <div class="col-lg-5 mb-4 mb-md-0">
+            <div class="card text-start">
+              <div class="card-body bg-light rounded p-4 box-shadow">
+                <h3 class="card-title text-start">Prata</h3>
+                <ul class="lista-plano mb-2">
+                  <li>1 semana</li>
+                  <li>Festivais</li>
+                  <li>Café da manhã incluso</li>
+                  <li class="mb-4">Passeio a cavalo</li>
+                </ul>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-primary btn-lg cor-destaque btn-block">Comprar</button>
+                  </div>
+                  <div class="col">
+                    <span class="h4">R$ 3.000</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card text-start">
+              <div class="card-body bg-cor rounded p-4 box-shadow text-white">
+                <h3 class="card-title text-start ouro">Ouro</h3>
+                <ul class="lista-plano plano-ouro mb-2">
+                  <li><strong>2</strong> semanas</li>
+                  <li>Festivais</li>
+                  <li>Café da manhã incluso</li>
+                  <li>Passeio a cavalos</li>
+                  <li class="mb-4">Pescaria</li>
+                </ul>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <button type="button" class="btn btn-primary btn-lg ouro-bg btn-block">Comprar</button>
+                  </div>
+                  <div class="col">
+                    <span class="h4">R$ 5.000</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria de Fotos -->
+    <section class="container-fluid text-center mb-5">
+      <div class="my-4">
+        <p class="mb-2 h6">VENHA TER ESSAS EXPERIÊNCIAS</p>
+        <h2 class="display-4">Galeria de Fotos</h2>
+      </div>
+      <div class="row bg-cor justify-content-center">
+        <div class="col-md-7 p-0">
+          <div id="carouselGaleria" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/rodeo1.jpg" class="d-block w-100" alt="mulher filmando rodeo">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/rodeo2.jpg" class="d-block w-100" alt="cavalo de rodeo">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/show.jpg" class="d-block w-100" alt="show">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/pescaria.jpg" class="d-block w-100" alt="homem pescando">
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/cavalos02.jpg" class="d-block w-100" alt="homem pescando">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleria" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleria" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="text-white mt-5">
+    <div class="bg-cor container-fluid py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="h6">DADOS DE CONTATO</h4>
+            <ul class="list-unstyled text-white">
+              <li>contato@countrybliss.com.br</li>
+              <li>21 99999-9999</li>
+              <li>De Seg. à Sex. das 8h às 18h</li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-6">
+            <ul class="list-unstyled">
+              <li><a href="#">Termos e Contrato</a></li>
+              <li><a href="#">Perguntas Frequentes</a></li>
+              <li><a href="#">Política de Privacidade</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="h6">REDES SOCIAIS</h4>
+            <ul class="list-unstyled">
+              <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Facebook</a></li>
+              <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Twitter</a></li>
+              <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-footer text-center py-3">
+      <p class="mb-0">Feito por Fabricio Maciel - 2024</p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
